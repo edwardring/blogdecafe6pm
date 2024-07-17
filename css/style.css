@@ -114,6 +114,37 @@ img{
     margin-bottom: 0;
 }
 
+/* estilos para la seccion lateral */
+.cursos{
+    list-style: none;
+}
+.widget-curso{
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 2rem;
+}
+
+.widget-curso:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+
+.widget-curso__label{
+    font-family: var(--fuenteEncabezados);
+    font-weight: 700;
+}
+
+.widget-curso__info{
+    font-weight: 400;
+}
+
+.widget-curso__label, .widget-curso__info{
+    font-size: 2rem;
+}
+
+.boton--secundario{
+    background-color: var(--primario);
+}
+
 .boton{
     display: block;
     font-family: var(--fuenteEncabezados);
@@ -146,6 +177,7 @@ img{
         grid-template-columns: 2fr 1fr;
         column-gap: 4rem;
     }
+
     .boton{
         display: inline-block;
     }
