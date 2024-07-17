@@ -161,6 +161,11 @@ img{
     background-color: #000;
 }
 
+/* estilos para el pie de pagina */
+.footer{
+    background-color: #000;
+}
+
 @media (min-width: 768px) {
     .barra{
         display: flex;
